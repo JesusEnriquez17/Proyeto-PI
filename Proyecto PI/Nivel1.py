@@ -12,15 +12,16 @@ icono=pygame.image.load('icon.png')
 pygame.display.set_icon(icono)
 
 #Fondo del juego
-fondo = pygame.image.load('img/FondosMapas/ciudad.png')
+fondo = pygame.image.load('img/NPCS/Mapa.png')
 
 #Música de fondo
-pygame.mixer.music.load('sounds/Aqua - Barbie Girl.WAV')
+pygame.mixer.music.load('sounds/intro.mp3')
 pygame.mixer.music.play(-1)
 
 
 #Personaje
-quieto = pygame.image.load('img/principal/idle1a.png')
+quieto = pygame.image.load('img/principal/idle1.png')
+
 
 caminaDerecha = [pygame.image.load('img/principal/run1.png'),
                  pygame.image.load('img/principal/run2.png'),
@@ -66,6 +67,7 @@ def recargaPantalla():
     #Variables globales
     global cuentaPasos
     global x
+
 
     #Fondo en movimiento
     x_relativa = x % fondo.get_rect().width
