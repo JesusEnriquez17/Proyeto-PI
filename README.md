@@ -1,2 +1,3 @@
 # Proyeto-PI
-NOSOTROS SOMOS LOS FORANEOS
+Equipo 6. Universidad De Colima
+
